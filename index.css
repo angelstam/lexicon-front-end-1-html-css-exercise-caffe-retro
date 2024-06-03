@@ -1,0 +1,104 @@
+:root {
+    --article-margin-top: 2rem;
+    --heading-font: "Spirax", sans-serif;
+    --paragraph-font: "Poiret One", sans-serif;
+    --paragraph-font-size: 1.3rem;
+    --paragraph-width: 80vw;
+}
+
+h1 {
+    font-family: var(--heading-font);
+    color: darkred;
+    text-align: center;
+    font-size: 5rem;
+    margin-bottom: 0rem;
+    padding-top: var(--article-margin-top);
+}
+
+body {
+    margin: 0;
+    background-color: black;
+    font-family: var(--paragraph-font);
+    font-size: var(--paragraph-font-size);
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    font-family: var(--heading-font);
+    font-size: 2rem;
+    background-color: rgba(39, 0, 0, 0.8);
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+}
+
+nav>a {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0.8rem 2rem;
+}
+
+article {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    border-bottom: 1rem solid darkred;
+}
+
+article * {
+    max-width: 40rem;
+    width: var(--paragraph-width);
+}
+
+article:last-of-type {
+    border: none;
+}
+
+#hot {
+    background-image: url('assets/hot.jpg');
+    background-size: cover;
+    background-position-x: center;
+}
+
+#juicy {
+    background-image: url('assets/juicy.jpg');
+    background-size: cover;
+    background-position-x: center;
+}
+
+#cosy {
+    background-image: url('assets/cosy.jpg');
+    background-size: cover;
+    background-position-x: center;
+}
+
+blockquote {
+    text-align: center;
+    background-color: rgba(139, 0, 0, 0.8);
+    padding: 1rem;
+    margin: 0;
+}
+
+table {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 1rem 3rem;
+}
+
+th {
+    text-align: left;
+}
+
+td {
+    text-align: right;
+}

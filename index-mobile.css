@@ -1,0 +1,15 @@
+body {
+    font-size: 1rem;
+}
+
+nav {
+    font-size: 1.5rem;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+blockquote:last-of-type {
+    display: none;
+}
