@@ -10,6 +10,14 @@ h1 {
     font-size: 2.5rem;
 }
 
+blockquote {
+    position: static;
+}
+
 blockquote:last-of-type {
     display: none;
+}
+
+table {
+    padding: 1rem;
 }
