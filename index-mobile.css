@@ -7,11 +7,17 @@ nav {
 }
 
 h1 {
-    font-size: 2.5rem;
+    font-size: 4rem;
+}
+
+article * {
+    width: 80vw;
 }
 
 blockquote {
     position: static;
+    padding: 0.5rem 0;
+    font-size: 1.2rem;
 }
 
 blockquote:last-of-type {
@@ -19,5 +25,5 @@ blockquote:last-of-type {
 }
 
 table {
-    padding: 1rem;
+    padding: 0.5rem;
 }
